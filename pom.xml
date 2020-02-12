@@ -15,16 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <repository>
-  <id>test</id>
-  <url>https://pkgs.dev.azure.com/clouduserpa969a9/r1/_packaging/test/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
+  <repositories>
+     <repository>
+      <id>test</id>
+      <url>https://pkgs.dev.azure.com/clouduserpa969a9/r1/_packaging/test/maven/v1</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+  </repository>
+</repositories>    
   <build>
     <plugins>
       <plugin>
